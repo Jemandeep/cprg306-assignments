@@ -8,6 +8,7 @@ const Page = () => {
             <h1>Week 2 Assignment</h1>
             <StudentInfo />
         </div>
+        
     );
 }
 
