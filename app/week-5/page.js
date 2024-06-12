@@ -5,8 +5,8 @@ import ItemList from './item-list';
 
 const Page = () => {
   return (
-    <main>
-      <h1>Shopping List</h1>
+    <main style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
+      <h1 style={{ marginBottom: '20px', fontSize: '36px', fontWeight: 'bold' }}>Shopping List</h1>
       <ItemList />
     </main>
   );
