@@ -1,7 +1,7 @@
-// page.js
+// app/week-8/shopping-list/page.js
 "use client";
+import React, { useState, useEffect } from 'react';
 import { useUserAuth } from "../_utils/auth-context";
-import React from 'react';
 import NewItem from './new-item';
 import ItemList from './item-list';
 import MealIdeas from './meal-ideas';
